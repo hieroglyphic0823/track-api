@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "track-api.js",
   "scripts": {
-    "start": "node track-api.js"
+    "start": "node track-api.js",
+    "postinstall": "npx puppeteer install"
   },
   "dependencies": {
     "express": "^4.18.2",
